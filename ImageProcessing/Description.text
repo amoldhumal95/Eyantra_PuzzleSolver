@@ -1,0 +1,15 @@
+Given:
+A set of test images, each containing
+ Arena having two divisions: Division 1 (D1), and Division 2 (D2).
+ Division D1 is a grid having 12 Cells numbered from 0 to 11 and D2 is a grid having 24 Cells numbered from 0 to 23 as shown in Figure 1.
+ Each Cell in D1 contains a one digit number (i.e. number from 0 to 9) while any one or two digits numbers (i.e. numbers from 0 to 99) are present in some of the Cells in D2.
+
+Problem Statement
+ Teams Modify the play (img) function in the task1_code.py file to take a test image as input and return number and their Cell position in D1 and D2 on Python IDLE console. Also show image with green contours around detected numbers as shown in Figure 3.
+Note: For green color take BGR value as (0,255,0)
+ For D1, display the entire array of numbers in the cells starting from 0 to 11 and for D2, display only the Cell number and the number contained in that corresponding Cell.
+
+Output :
+The output on the Python IDLE console will look like:
+D1 = [1, 2, 1, 3, 7, 6, 2, 9, 8, 1, 5, 4]
+D2 = [ [5,10], [6,11], [15,15] ]
