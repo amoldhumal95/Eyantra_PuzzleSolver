@@ -1,0 +1,4 @@
+e-Yantra has provided all teams with ATMEL STUDIO 6, a free software for programming AVR microcontroller. Participating teams are free to use any other open source Integrated Development Environment (IDE) for programming AVR microcontroller.
+ The teams must use OpenCV and Python to write their code.
+ Use of any non-open source libraries is not allowed and will result in disqualification.
+ As per e-Yantra policy, all your code and documents are open-source and maybe published on the e-Yantra website.
