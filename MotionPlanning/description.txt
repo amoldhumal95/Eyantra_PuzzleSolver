@@ -1,0 +1,9 @@
+The robot starts from START position and does the following:
+i. Traverses the grid in D1 and picks up the number.
+Pick up is considered when the number is displayed on GLCD (Graphics Liquid Crystal Display). While picking, the robot should be on the cell boundary of the corresponding number. The same is explained in detail in Section 6: Theme rules.
+ii. Traverses the grid in D2 and deposits the number.
+Deposition is considered when the message “Deposited” is displayed on GLCD. While depositing also the robot should be on the cell boundary of the number on which the picked number is deposited.
+iii. Numbers deposited on a number in D2 must add up to that number.
+iv. The robot buzzes the buzzer for 1000 ms indicating completion of the solution for that number in D2.
+v. Steps i – iv are repeated till all the numbers in D2 are solved.
+5. FINISH line is NOT marked on the arena; the robot stops when it solves the puzzle and sounds a continuous buzzer as an indication to show that it has finished the task.
